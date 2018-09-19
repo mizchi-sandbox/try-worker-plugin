@@ -4,4 +4,4 @@ worker.onmessage = event => {
   console.log("response: " + event.data);
 };
 
-worker.postMessage(42);
+worker.postMessage(0);
